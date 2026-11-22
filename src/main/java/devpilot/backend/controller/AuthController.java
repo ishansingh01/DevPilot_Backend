@@ -21,7 +21,7 @@ import java.util.Map;
 @RequiredArgsConstructor
 public class AuthController {
 
-    private CurrentUser currentUser;
+    private final CurrentUser currentUser;
 
     @GetMapping("/login-url")
     public Map<String, String> loginUrl(){
