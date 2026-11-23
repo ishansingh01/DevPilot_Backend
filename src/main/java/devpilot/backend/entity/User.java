@@ -27,7 +27,7 @@ public class User {
     @Column(nullable = false, length = 100)
     private String githubUsername;
 
-    @Column(unique = true, length = 200)
+    @Column(length = 200)
     private String displayName;
 
     @Column(length = 500)
